@@ -1,12 +1,9 @@
 {
-  "index_name": "pingcap",
+  "index_name": "tmdwiki",
   "start_urls": [
-    "https://pingcap.com/docs",
-    "https://pingcap.com/"
+    "http://aibokalv.gitee.io/tmdwiki/"
   ],
-  "stop_urls": [
-    "^((?!https://pingcap.com/doc).)*$"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
@@ -15,6 +12,8 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
-  "min_indexed_level": 1,
-  "nb_hits": 3830
+  "conversation_id": [
+    "466336944"
+  ],
+  "nb_hits": 48
 }
